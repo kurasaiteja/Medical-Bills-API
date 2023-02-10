@@ -4,8 +4,8 @@ This is a RESTful API implemented using Node.js and Express framework. It provid
 
 ## Endpoints
 
-- `GET /items`: returns a list of medical bills
-- `POST /items`: creates a new medical bill
+- `GET /bills`: returns a list of medical bills
+- `POST /bills`: creates a new medical bill
 
 A medical bill has the following properties:
 
@@ -20,8 +20,8 @@ Both endpoints accept and return JSON.
 
 Follow the instructions below to set up the application on your local machine.
 
-1. Clone the repository: `git clone https://github.com/<username>/medical-bill-api.git`
-2. Navigate to the project directory: `cd medical-bill-api`
+1. Clone the repository
+2. Navigate to the project directory
 3. Install the dependencies: `npm install`
 4. Start the server: `npm start`
 5. The API should now be available at `http://localhost:3000/`.
